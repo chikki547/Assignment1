@@ -9,6 +9,9 @@ def fibnocci_series(num):
     '''prints given number of fibnocci series numbers'''
     first = 0
     second = 1
+    if num <= 0:
+        print "None"
+        return
     if num < 2:
         print 1
         return
